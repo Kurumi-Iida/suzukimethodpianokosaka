@@ -6,6 +6,7 @@
 
 body{
   background: #f9f9f9;
+  font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
 }
 .container{
   width: 900px;
@@ -22,12 +23,21 @@ main{
   width: auto;
   vertical-align: bottom;
 }
+.top-img::before{
+  width: auto
+  content: “”;
+　display: block;
+　position: absolute;
+　top: 0;
+　left: 0;
+　background-color: rgba(0,0,0,0.5);
+}
 img{
   vertical-align: bottom;
 }
 nav{
   overflow: hidden;
-  background: #ffdf40;
+  background: #8c8277;
   margin-bottom: 30px;
 }
 nav ul{
@@ -42,7 +52,7 @@ nav li{
 }
 nav a{
   text-decoration: none;
-  color: #000;
+  color: #fff;
   padding: 8px;
   display: block;
   transition: 0.5s;
@@ -51,7 +61,7 @@ nav a{
 }
 nav a:hover{
   background: #fff;
-  color: #ffdf40;
+  color: #8c8277;
 }
 .sidebar{
   width: 200px;
