@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+  background: #f9f9f9;
+}
+.container{
+  width: 900px;
+  margin: auto;
+}
+main{
+  width: 600px;
+  overflow: hidden;
+  background: #fff;
+  padding: 20px;
+  float: left;
+}
+.top-img{
+  width: auto;
+  vertical-align: bottom;
+}
+img{
+  vertical-align: bottom;
+}
+nav{
+  overflow: hidden;
+  background: #ffdf40;
+  margin-bottom: 30px;
+}
+nav ul{
+  text-align:center;
+  width: 355px;
+}
+nav li{
+  float: left;
+  list-style-type: none;
+  /*ここ謎*/
+  display: inline-block;
+}
+nav a{
+  text-decoration: none;
+  color: #000;
+  padding: 8px;
+  display: block;
+  transition: 0.5s;
+  font-size: 18px;
+  
+}
+nav a:hover{
+  background: #fff;
+  color: #ffdf40;
+}
+.sidebar{
+  width: 200px;
+  float: left;
+  background: #fff;
+  padding: 20px;
+  margin-left: 10px;
+}
+.col6{
+  width: 600px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.col5{
+  width: 490px;
+  padding: 5px;
+  float: left;
+}
+.col4{
+  width: 390px;
+  padding: 5px;
+  float: left;
+}
+.col3{
+  width: 290px;
+  padding: 5px;
+  float: left;
+  overflow: hidden;
+}
+.col2{
+  width: 190px;
+  padding: 5px;
+  float: left;
+}
+.col1{
+  width: 90px;
+  padding: 5px;
+  float: left;
+}
+.second-img {
+  float: left;
+  margin-right: 10px;
+}
+.title{
+  float: left;
+  font-size: 15px;
+  width: 350px;
+  margin-bottom: 5px;
+}
+.description{
+  float: left;
+  font-size: 12px;
+  width: 350px;
+  margin-bottom: 5px;
+}
+.lit-btn{
+  background: #f9f9f9;
+  color: #ffdf40;
+  font-size: 12px;
+  border: 1px solid #ffdf40;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.lit-btn:hover{
+  background: #ffdf40;
+  color: #f9f9f9;
+  transition: 1s;
+}
